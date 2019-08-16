@@ -18,10 +18,6 @@
         <packaging>jar</packaging>
 	
 
-	<!-- next line is only for eclipse to get rid of warnings -->
-	
-
-
 
 
 	<!--
@@ -38,10 +34,6 @@
 
  *** WARNING *** WARNING *** WARNING *** WARNING *** WARNING *** WARNING *** WARNING ***
 -->
-
-	<target name="apidoc" description="build javadoc for the extension">
-		<apidoc extensions="${extname}" create.zip="true" zip.name="${extname}" />
-	</target>
 
 	<target name="clean" description="cleans the extension">
 		<extension_clean extname="${extname}" />
