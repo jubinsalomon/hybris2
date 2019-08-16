@@ -21,7 +21,7 @@
 	<!-- next line is only for eclipse to get rid of warnings -->
 	
 
-	<import file="${platformhome}/resources/ant/antmacros.xml" />
+
 
 
 	<!--
