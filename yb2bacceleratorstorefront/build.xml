@@ -19,7 +19,7 @@
 	
 
 	<!-- next line is only for eclipse to get rid of warnings -->
-	<property name="platformhome" location=".." />
+	
 
 	<import file="${platformhome}/resources/ant/antmacros.xml" />
 
