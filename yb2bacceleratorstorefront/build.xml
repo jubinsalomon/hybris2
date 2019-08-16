@@ -34,6 +34,9 @@
 
  *** WARNING *** WARNING *** WARNING *** WARNING *** WARNING *** WARNING *** WARNING ***
 -->
+<build>
+    <plugins>
+	    <plugin>
 
 	<target name="clean" description="cleans the extension">
 		<extension_clean extname="${extname}" />
@@ -170,5 +173,11 @@
 	<target name="webservice_nature" description="provides webservice nature to selected extension">
 		<set_webservice_nature extensionname="${extname}" />
 	</target>
+		    
+		  
+    
+	    </plugin>
+	    </plugins>
+            </build>
 
 </project>
