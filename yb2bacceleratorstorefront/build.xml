@@ -11,9 +11,9 @@
 -->
 <project name="yb2bacceleratorstorefront" default="all">
 	<groupId>com.mycompany.app</groupId>
-  <artifactId>java-sample</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+        <artifactId>java-sample</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <packaging>jar</packaging>
 	<modelVersion>4.0.0</modelVersion>
 	<property file="platformhome.properties" />
 
